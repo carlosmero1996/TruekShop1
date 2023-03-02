@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="384dp"
+        android:layout_height="152dp"
+        android:src="@drawable/ic_star" />
+
+    <TextView
+        android:id="@+id/nombreTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/precioTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/descripcionTextView"
+        android:layout_width="383dp"
+        android:layout_height="233dp"
+        android:paddingTop="16dp"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="389dp"
+        android:layout_height="274dp"
+        android:layout_weight="1" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="128dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="0"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="start"
+            android:layout_marginEnd="148dp"
+            android:layout_marginRight="148dp"
+            android:layout_marginBottom="62dp"
+            android:text="Contacta con el Vendedor"
+            app:backgroundTint="#673AB7" />
+
+        <Button
+            android:id="@+id/btncomprar"
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="end"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="67dp"
+            android:text="Comprar"
+            app:backgroundTint="#673AB7" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_crearprodecto"
+            android:icon="@drawable/ic_baseline_post_add_24"
+            android:title="Crear Producto"/>
+        <item
+            android:id="@+id/nav_sobrenosotros"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="Sobre Nosostros"/>
+        <item
+            android:id="@+id/nav_alimentos"
+            android:icon="@drawable/fastfood_24"
+            android:title="Alimentos"/>
+        <item
+            android:id="@+id/nav_mecanica"
+            android:icon="@drawable/car_repair_24"
+            android:title="Mecanica"/>
+        <item
+            android:id="@+id/nav_Ropa"
+            android:icon="@drawable/clothes_shirt_ui_svgrepo_com"
+            android:title="Ropa"/>
+        <item
+            android:id="@+id/nav_aseo"
+            android:icon="@drawable/hygienic_beauty_svgrepo_com"
+            android:title="Aseo"/>
+        <item
+            android:id="@+id/nav_tecnologia"
+            android:icon="@drawable/ic_baseline_computer_24"
+            android:title="Tecnologia"/>
+
+    </group>
+    <item
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_baseline_exit_to_app_24"
+                android:title="Logout"/>
+        </menu>
+    </item>
+</menu>

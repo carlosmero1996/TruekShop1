@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">TruekShop</string>
+    <string name="buscarentruekshp">Buscar en TruekShop</string>
+
+    <string name="btncomprar">Comprar $</string>
+    <string name="laprecio">Precio $</string>
+    <string name="creacuenta">Registarte a TrueckShop</string>
+
+    <string-array name="spinner_options">
+        <item>Hombre</item>
+        <item>Mujer</item>
+
+    </string-array>
+
+    <style name="MySpinnerStyle">
+        <item name="android:background">@drawable/spinner_border</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+
+    <string name="title_activity_main">Bebidas y Licores</string>
+    <string name="title_list_item">Crema</string>
+    <string name="title_activity_movie_detail">Detalles</string>
+    <string name="precios">3.66</string>
+    <string name="rating">9.8</string>
+    <string name="description">La crema es un licor elaborado con crema de leche y las frutas y aromas deseados según el resultado que se quiera obtener por parte de la empresa productora.</string>
+    <string name="all">TODO</string>
+
+    <string-array name="id">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="title">
+        <item>Licor de hierbas</item>
+        <item>Licor de frutas</item>
+        <item>Pacharán</item>
+        <item>Crema</item>
+        <item>Licor sin alcohol</item>
+    </string-array>
+
+    <string-array name="precios">
+        <item>5.89</item>
+        <item>4.76</item>
+        <item>2.50</item>
+        <item>3.45</item>
+        <item>1.89</item>
+    </string-array>
+
+    <string-array name="rating">
+        <item>9.8</item>
+        <item>9.8</item>
+        <item>9.8</item>
+        <item>9.8</item>
+        <item>9.8</item>
+    </string-array>
+
+    <string-array name="description">
+        <item> El licor de hierbas se obtiene de la fermentación de hierbas naturales y un alcohol etílico de buena calidad por un tiempo medio de unas diez semanas.
+
+Suele tener una graduación alcohólica bastante alta y su uso más común es como digestivo tras las comidas.</item>
+
+        <item>El licor de frutas es una bebida dulce por su composición de frutas caracterizadas por contener muchos azúcares. Este licor puede ser elaborado con cualquier tipo de fruta.
+
+Este licor suele ser consumido después de comer, a modo de digestivo, aunque también es usado para hacer cócteles por su baja graduación alcohólica que no suele superar los 20°.</item>
+        <item>El pacharán es un licor obtenido de la maceración de endrinas, el fruto del endrino, en aguardiente anisado. Es un fruto negro y azulado característico de la región de Navarra.
+
+Es consumido como digestivo tras las comidas y, aunque es muy conocida principalmente en España, es un licor reconocido a nivel mundial.</item>
+        <item>La crema es un licor elaborado con crema de leche y las frutas y aromas deseados según el resultado que se quiera obtener por parte de la empresa productora.
+
+Para saborear una de las mejores cremas, sin duda, la mejor opción es Baileys, una mezcla perfecta de crema irlandesa, licores seleccionados y whisky irlandés que se ha convertido en una de las bebidas favoritas alrededor del mundo.</item>
+        <item>Este tipo de licor, el licor sin alcohol, es un licor que pretende tener todo el sabor y el aroma de cualquier tipo de licor con la principal e importante diferencia de no tener nada de alcohol.
+
+Una de las opciones más recomendadas para saborear un licor sin alcohol es la Granadina Tropic Rives sin alcohol, un concentrado de granadina con 0,0% de alcohol y origen en España.</item>
+    </string-array>
+
+    <string-array name="url">
+
+        <item>https://www.yopongoelhielo.com/blog/wp-content/uploads/2021/03/jagermeister-licor-hierbas.jpg</item>
+        <item>https://www.yopongoelhielo.com/blog/wp-content/uploads/2021/03/grand-marnier-rojo-licor-frutas.jpg</item>
+        <item>https://www.yopongoelhielo.com/blog/wp-content/uploads/2021/03/pacaharan-casero-otaola-1.jpg</item>
+        <item>https://www.yopongoelhielo.com/blog/wp-content/uploads/2021/03/licor-crema-baileys.jpg</item>
+        <item>https://www.yopongoelhielo.com/blog/wp-content/uploads/2021/03/granadina-tropic-rives-licor-sin-alcohol.jpg</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+
+
+        <string-array name="opcionescategoria">
+            <item>Alimentos</item>
+            <item>Mecanica</item>
+            <item>Ropa</item>
+            <item>Aseo</item>
+            <item>Tecnologia</item>
+
+        </string-array>
+
+</resources>

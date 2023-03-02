@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".activity_sign_up">-->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".activity_sign_up">
+
+
+    <ImageView
+        android:id="@+id/signUpImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="324dp"
+        android:src="@drawable/logo"
+        android:transitionName="logoImageTrans" />
+
+    <TextView
+        android:id="@+id/continuarLabel"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="71dp"
+        android:text="@string/creacuenta"
+        android:textSize="24sp"
+        android:transitionName="iniciaSesionTextTrans" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/cedulaTextField"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/continuarLabel"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="33dp"
+        android:hint="Numero de Cedula">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="53dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/nameTextField"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cedulaTextField"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:hint="Nombre completo">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="55dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/emailTextField"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameTextField"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_toStartOf="@+id/telefonoTextField"
+        android:layout_toLeftOf="@+id/telefonoTextField"
+        android:hint="Email"
+        android:transitionName="emailInputTextTrans">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/emailEditText"
+            android:layout_width="184dp"
+            android:layout_height="55dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/telefonoTextField"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameTextField"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="26dp"
+        android:hint="Telefono o Celular"
+        android:inputType="phone">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="177dp"
+            android:layout_height="55dp"
+
+            android:inputType="phone" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/direccionTextField"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="387dp"
+        android:layout_height="71dp"
+        android:layout_above="@+id/my_spinner"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="9dp"
+        android:hint="Direccion">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="375dp"
+            android:layout_height="55dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/my_spinner"
+        style="@style/MySpinnerStyle"
+        android:layout_width="391dp"
+        android:layout_height="42dp"
+        android:layout_above="@+id/usuarioSignUpTextField"
+        android:layout_marginBottom="30dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/usuarioSignUpTextField"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="394dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/contrasenaTextField"
+        android:layout_marginBottom="25dp"
+        android:hint=" Nombre Usuario">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="371dp"
+            android:layout_height="55dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/contrasenaTextField"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="383dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/confirmarContrasenaTextField"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="40dp"
+        android:hint="Contraseña"
+        android:transitionName="passwordInputTextTrans"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/PasswordEditText"
+            android:layout_width="360dp"
+            android:layout_height="60dp"
+
+            android:inputType="textPassword" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/confirmarContrasenaTextField"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="376dp"
+        android:layout_height="79dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="77dp"
+        android:hint="Confirmar contraseña"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/comfirmarPasswordEditText"
+            android:layout_width="355dp"
+            android:layout_height="60dp"
+
+            android:inputType="textPassword" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/inicioSesion"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="22dp"
+        android:text="REGISTRAR"
+        android:transitionName="buttonSignInTrans" />
+
+    <TextView
+        android:id="@+id/nuevoUsuario"
+        android:layout_width="205dp"
+        android:layout_height="47dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="20dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="Ya tienes una cuenta? Inicia sesion!"
+        android:textAlignment="center"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:transitionName="newUserTrans" />
+
+
+</RelativeLayout>
